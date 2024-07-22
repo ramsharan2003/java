@@ -1,0 +1,123 @@
+/* Overall body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Style the header title */
+  .header h2 {
+    margin: 0 0 20px;
+    color: white;
+  }
+  
+  /* Style the input */
+  #myInput {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the dropdown */
+  #categorySelect {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the add button */
+  .addBtn {
+    padding: 10px;
+    width: 10%;
+    margin: 25px;
+    background: #ffffff;
+    color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the add button on hover */
+  .addBtn:hover {
+    background-color: #45a049;
+    color: white;
+  }
+  
+  /* Style the list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  
+  ul li {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Set hover effects for list items */
+  ul li:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Style the close button */
+  .close {
+    color: #888;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover {
+    color: #000;
+    cursor: pointer;
+  }
+  
+  /* Task text and category styling */
+  .task-text {
+    flex-grow: 1;
+  }
+  
+  .task-category {
+    font-style: italic;
+    color: #999;
+  }
+  
